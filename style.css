@@ -1,0 +1,91 @@
+body{
+    background-color: green ;
+}
+
+.Navigation{
+    display: flex;
+    margin: auto;
+    margin-bottom: 100px;
+    width: 50%;
+    padding: 10px;
+    background:transparent;
+    justify-content: flex-end;
+    
+}
+button{
+        background:transparent;
+        border: none;
+        font-size: 24px;
+        margin-left: auto;
+}
+button:hover{
+  background-color:darkgreen;  
+}   
+
+.Download{
+    position: relative;
+    width: 200px;
+    border-radius: 10px;
+    background: white;
+    margin-left: 10%;
+}
+
+.Text{
+    margin-left: 200px;
+    padding-left: 100px;
+}
+.Text h1{
+    font-size: 100px;
+    width: 40%;
+}
+.Text h3{
+    font: 10px;
+    width: 30%;
+}
+.images {
+    position: fixed;
+    top: 0%;
+    left: 60%;
+    transform: translate(-50%, 35%);
+    width: 400px; /* Increased size */
+    height: auto;
+    z-index: -1;       /* Optional spacing */
+}
+
+.truck {
+    width: 700px; 
+    height: 500px;/* Adjust size as needed */
+}
+
+.parcel{
+    margin: 100px;
+    margin-left: 400px;
+   position: relative;
+   background-color: aliceblue;
+   border-radius:10px ;
+   opacity: 0.6;
+   width: 45%;
+   align-content: center;
+   height: 50%;
+}
+.ID{
+    top: 50%;
+    right: 50%;
+    z-index: -1; 
+    transform: translate(2%, 5%);
+}
+.TrackParcel{
+    top: 50%;
+    left: 50%;
+    z-index: -1; 
+    padding: auto;
+    transform: translate(550%, -500%);
+    background-color: rgb(255, 255, 255);
+    opacity: 1;
+    border-radius: 10px;
+    opacity: 0.9;
+    box-shadow: 9px 9px 10px lightblue;
+}
+.TrackParcel:hover{
+background-color: beige;
+}
